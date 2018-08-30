@@ -7,4 +7,4 @@ spring:
     name: order
 
 server:
-  port: 8773
+  port: 87733
