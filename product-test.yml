@@ -4,4 +4,4 @@ spring:
 
 server:
   port: 8771
-en: test
+env: test
