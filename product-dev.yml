@@ -3,5 +3,5 @@ spring:
     name: product
 
 server:
-  port: 8771
+  port: 8772
 env: dev
