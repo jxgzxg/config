@@ -4,4 +4,5 @@ spring:
 server:
   port: 8772
 
-env: test321123
+name: tony
+age:11
