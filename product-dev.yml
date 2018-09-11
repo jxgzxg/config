@@ -1,7 +1,18 @@
 spring:
   application:
     name: product
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: http://localhost:3306/springcloud?characterEncoding=utf-8&iseSSL=false
+    username: root
 
 server:
-  port: 8774
+  port: 8773
 env: dev
