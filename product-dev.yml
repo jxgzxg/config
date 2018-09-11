@@ -14,5 +14,4 @@ spring:
     username: root
 
 server:
-  port: 8773
-env: dev
+  port: 8775
